@@ -3,9 +3,41 @@ body {
 }
 
 .heading {
-    border: black;
-    border-style: dashed;
     text-align: center;
     color: #264653;
-    font-size:x-large;
+    font-size:xx-large;
+}
+
+.recipes {
+    /* border: black;
+    border-style: dashed; */
+    margin-top: 90px;
+    text-align: center;
+}
+.lasagna, .burger {
+    border-style: solid;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.image {
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    height: 250px;
+}
+
+img {
+    height: 250px;
+    width: auto;   
+}
+
+body {
+    font-size: x-large;
+    color: #264653;
+}
+.text {
+    border: none;
 }
